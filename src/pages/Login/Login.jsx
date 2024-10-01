@@ -42,8 +42,8 @@ function Login() {
         <h2 className="title">Login Quiz</h2>
       </div>
       <form className="form-body" onSubmit={handleSubmit}>
-        <input type="email" placeholder="Email" name="email" required onChange={handleChange}/>
-        <input type="password" placeholder="Password" name="password" required onChange={handleChange}/>
+        <input type="email" placeholder="dinhviethuy055@gmail.com" name="email" required onChange={handleChange}/>
+        <input type="password" placeholder="1" name="password" required onChange={handleChange}/>
         {show && <div className="text-red-500 font-bold">Email hoặc mật khẩu sai</div>}
         <div className="button">
           <button className="btn" type="submit">Login</button>
